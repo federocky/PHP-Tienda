@@ -1,0 +1,81 @@
+main {
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: thistle;
+    width: 90%;
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main>form {
+    flex: 0 1 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+main>form button {
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.contenedor-usuario-principal {
+    flex: 0 1 60%;
+}
+
+.contenedor-usuario-principal>p {
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #329FCD;
+    color: #fff;
+    border-radius: 16px;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+.articulo-comprado {
+    display: flex;
+    margin-bottom: 28px;
+    border-radius: 12px;
+    background-color: #eee;
+}
+
+.articulo-comprado>div {
+    padding: 12px;
+}
+
+.articulo-comprado img {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.articulo-comprado p {
+    font-size: 22px;
+}
+
+.articulo-comprado .titulo-articulo {
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.articulo-comprado .precio-unidad {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#cambiaDireccion {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.form-direccion span {
+    display: block;
+}

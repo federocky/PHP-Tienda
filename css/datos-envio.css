@@ -1,0 +1,127 @@
+main {
+    padding-top: 25px;
+    padding-top: 60px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.form-confirmar-direccion {
+    flex: 0 1 68%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-direccion {
+    flex: 0 1 68%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-direccion h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.form-direccion h4,
+.form-confirmar-direccion h4 {
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+.form-confirmar-direccion p {
+    font-size: 25px;
+}
+
+.form-direccion input {
+    height: 30px;
+    font-size: 20px;
+}
+
+.form-direccion input[type="reset"] {
+    height: auto;
+    background-color: #24b3eb;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 18px;
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #333;
+}
+
+.form-direccion button,
+.form-confirmar-direccion button {
+    margin: 12px 0px;
+    background-color: #EB9524;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 18px;
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #333;
+}
+
+#otra {
+    background-color: #24b3eb;
+}
+
+.form-direccion label {
+    margin-bottom: 20px;
+}
+
+.form-confirmar {
+    flex: 0 1 25%;
+    background-color: #eee;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-confirmar p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.form-confirmar a {
+    background-color: #24b3eb;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 18px;
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #333;
+}
+
+label {
+    position: relative;
+}
+
+label p {
+    font-size: 24px;
+    position: absolute;
+    top: 6px;
+    left: 20px;
+}
+
+label p span {
+    font-size: 16px;
+}

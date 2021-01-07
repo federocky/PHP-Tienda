@@ -1,0 +1,42 @@
+.filtro {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form_buscar {
+    flex: 1 0 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form_buscar input[type="search"] {
+    flex: 0 1 60%;
+    height: 30px;
+}
+
+.form_filtrar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form_filtrar input {
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.form_filtrar p {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.filtro input[type="submit"] {
+    cursor: pointer;
+}
+
+.paginacion {
+    flex: 0 1 40%;
+    margin-top: 50px;
+}

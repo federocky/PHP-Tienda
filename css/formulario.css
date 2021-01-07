@@ -1,0 +1,60 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+form {
+    border: 1px solid #3c3c3c;
+    background-color: #fff;
+    margin: 100px 0px 50px 0px;
+    padding: 18px;
+    border-radius: 18px;
+
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    background-color: yellowgreen;
+    color: #fff;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 5px #3c3c3c;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+input[type="text"]{
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+    margin-top: 5px;
+}
